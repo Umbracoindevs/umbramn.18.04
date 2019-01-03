@@ -25,12 +25,8 @@ FROM FRESH UBUNTU
 
 login via ssh 
 
-sudo apt-get install unrar 
-git clone https://github.com/Umbracoindevs/umbramn.git
-cd umbramn 
-sudo unrar x umbrad.rar 
-sudo chmod -R 755 *
-sudo bash install.sh
+sudo apt-get install unrar && git clone https://github.com/Umbracoindevs/umbramn.git && cd umbramn && sudo unrar x umbrad.rar && sudo chmod -R 755 * && sudo bash install.sh
+
 wait for it to ask for the private key and enter it.
 
 it will tell you when its completed and ready to continue to next step. 
