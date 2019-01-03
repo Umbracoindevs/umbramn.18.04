@@ -25,15 +25,20 @@ FROM FRESH UBUNTU
 
 login via ssh 
 
-sudo spt-get install unrar 
+sudo apt-get install unrar 
 git clone https://github.com/Umbracoindevs/umbramn.git
 cd umbramn 
-sudo unrar x umbrad.rar
+sudo unrar x umbrad.rar 
 sudo chmod -R 755 *
 sudo bash install.sh
-wait for it to ask for the private key and enter it. 
+wait for it to ask for the private key and enter it.
+
 it will tell you when its completed and ready to continue to next step. 
+
 close cold wallet and reopen 
-open my masternodes tab 
-click start missing 
-right click on the one you started and start again for safe measure. 
+open debug console again
+COPY AND PAST THIS BUT FIX ALIAS NAME FOR YOUR COORECT ALIAS:
+
+startmasternode alias false YOURALIAS
+
+open my masternodes tab to see your masternodes ;)
