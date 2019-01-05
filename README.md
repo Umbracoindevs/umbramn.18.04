@@ -39,7 +39,7 @@
 
 # startmasternode alias false YOURALIAS
 
-# After running the command in step 4, go back to your VPS
+# After running the command go back to your VPS
 
 # Enter cd to get back to your root directory
 
