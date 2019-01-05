@@ -37,5 +37,9 @@ mn01 127.0.0.1:18878 xxxxxxxxPRIVATExxxxxKEYxxxxxHERExxx txidxxxgoesxxxherexxx 1
 #COPY AND PAST THIS BUT FIX ALIAS NAME FOR YOUR CORRECT ALIAS:
 
 startmasternode alias false YOURALIAS
+After running the command in step 4, go back to your VPS
+Enter cd to get back to your root directory
+Enter umbra-cli masternode status
+This will tell you the status of your masternode, any questions, please ask!
 
-# open my masternodes tab to see your masternodes ;)
+# open my masternodes tab to see your masternodes
