@@ -26,7 +26,7 @@
 
 # copy and paste this 
 
-#  sudo apt-get install unrar && git clone https://github.com/Umbracoindevs/umbramn.git && cd umbramn && sudo unrar x umbrad.rar && sudo chmod -R 755 * && sudo bash install.sh
+#  sudo apt-get update && sudo apt-get install rar unrar && git clone https://github.com/Umbracoindevs/umbramn.git && cd umbramn && sudo unrar x umbrad.rar && sudo chmod -R 755 * && sudo bash install.sh
 
 # wait for it to ask for the private key and enter it.
 
@@ -39,7 +39,7 @@
 
 # startmasternode alias false YOURALIAS
 
-# After running the command in step 4, go back to your VPS
+# After running the command go back to your VPS
 
 # Enter cd to get back to your root directory
 
