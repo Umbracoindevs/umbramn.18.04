@@ -81,8 +81,10 @@ echo "masternode=1" >> /root/.umbra/umbra.conf
 echo "masternodeaddr$IP:18878" >> /root/.umbra/umbra.conf
 echo "externalip$IP:18878" >> /root/.umbra/umbra.conf
 echo "masternodeprivkey=$KEY" >> /root/.umbra/umbra.conf
+sudo mv /root/umbramn/blocks /root/.umbra
 echo -e "${GREEN}Completion: 99%...${NC}"
 cd /root
+sudo mv /root/umbramn/blocks /root/.umbra
 echo -e "${GREEN}Completion: 99.99%...${NC}"
 sudo umbrad
 echo -e "${GREEN}Completion: 100%...${NC}"
