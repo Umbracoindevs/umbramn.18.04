@@ -32,8 +32,7 @@
 
 
 # Example: mn1 127.0.0.2:18878 PRIVATEKEY TXID 0
-
-# mn01 127.0.0.1:18878 xxxxxxxxPRIVATExxxxxKEYxxxxxHERExxx txidxxxgoesxxxherexxx 1
+  mn01 127.0.0.1:18878 xxxxxxxxPRIVATExxxxxKEYxxxxxHERExxx txidxxxgoesxxxherexxx 1
 
 # KEEP WALLET AND DEBUG OPEN still BUT SAVE the masternode.conf file 
 
