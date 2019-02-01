@@ -3,8 +3,8 @@
 
 # open wallet debug console
 
-# PASTE THIS: 
-        getaccountaddress
+# PASTE THIS AND CHANGE "ALIAS" TO SOMETHING LIKE THIS "MN01": 
+        getaccountaddress ALIAS
 
 # COPY AND PASTE AND ENTER YOUR ADDRESS IN RIGHT SPOT
         sendtoaccountaddress WALLETADDRESS 10000
@@ -12,7 +12,8 @@
 # PASTE THIS
         masternode genkey
 
-# COPY AND PASTE AND ENTER YOUR ADDRESS IN RIGHT SPOT: sendtoaccountaddress WALLETADDRESS 10000
+# COPY AND PASTE AND ENTER YOUR ADDRESS IN RIGHT SPOT:
+        sendtoaccountaddress WALLETADDRESS 10000
 
 # PASTE THIS:
         masternode outputs
