@@ -1,4 +1,4 @@
-# UMBRA MASTERNODE INSTALL AND SETUP SUPER EASY!
+# UMBRA MASTERNODE INSTALL AND SETUP SUPER EASY! must be Ubuntu 18.04 (BIONIC)
        masternode version 2.0.0.
 
 # open wallet debug console
