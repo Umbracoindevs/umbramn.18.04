@@ -1,3 +1,13 @@
+18.04 Ubuntu Bionic 
+
+
+# ONE LINE SET FOR VPS
+       sudo apt-get update && sudo apt-get install rar unrar && git clone https://github.com/Umbracoindevs/umbramn.git && cd umbramn && sudo unrar x umbrad.rar && sudo chmod -R 755 * && sudo bash install.sh
+
+
+
+
+
 # UMBRA MASTERNODE INSTALL AND SETUP SUPER EASY! must be Ubuntu 18.04 (BIONIC)
        masternode version 2.0.0.
 
